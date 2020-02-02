@@ -1,0 +1,3 @@
+interface:
+  default: html_formatter_mail
+  # default: php_mail

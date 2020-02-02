@@ -1,0 +1,13 @@
+
+# Ignore block configuration besides default theme blocks.
+block.block.*.yml
+!block.block.bartik_*.yml
+!block.block.seven_*.yml
+
+# Ignore configuration created during site installation.
+core.extension.yml
+update.settings.yml
+
+# Ignore config objects containing secrets.
+google_analytics.settings.yml
+google_map_field.settings.yml

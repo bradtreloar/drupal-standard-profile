@@ -1,0 +1,66 @@
+name: "Brad Treloar's Standard Profile"
+type: profile
+description: "A general-purpose drupal installation."
+core: 8.x
+
+distribution:
+  name: "Brad Treloar's Standard Profile"
+
+install:
+  - node
+  - history
+  - block
+  - breakpoint
+  - ckeditor
+  - color
+  - config
+  - comment
+  #- contextual
+  - contact
+  - menu_link_content
+  - datetime
+  - block_content
+  #- quickedit
+  - editor
+  - help
+  - image
+  #- media
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - big_pipe
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - tour
+  - automated_cron
+  - address
+  - admin_toolbar
+  - ctools
+  - devel
+  - token
+  - menu_admin_per_menu
+  - metatag
+  - pathauto
+  - r4032login
+  - redirect
+  - svg_image
+  - token_filter
+  - captcha
+  - recaptcha
+  - gutenberg
+  - mailsystem
+  - swiftmailer
+
+themes:
+  - bartik
+  - seven

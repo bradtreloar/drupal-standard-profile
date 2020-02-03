@@ -24,7 +24,8 @@ install:
   - editor
   - help
   - image
-  #- media
+  - media
+  - media_library
   - menu_ui
   - options
   - path
@@ -58,8 +59,6 @@ install:
   - captcha
   - recaptcha
   - gutenberg
-  - mailsystem
-  - swiftmailer
 
 themes:
   - bartik
